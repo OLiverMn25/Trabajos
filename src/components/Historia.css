@@ -1,0 +1,64 @@
+body {
+    background-color: #D6EAF8;
+    margin-left: 3.5cm; /* Margen izquierdo de 3.5 cm */
+    margin-right: 3.5cm; /* Margen derecho de 3.5 cm */
+}
+
+.container {
+    margin: 0; /* Restablece el margen predeterminado del cuerpo */
+}
+
+.img-container {
+    float: left;
+    margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+    margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+.blockquote-container {
+    overflow: hidden; /* Evita que los elementos floten por encima */
+}
+
+hr {
+    width: 100%; /* Ancho del 100% para cubrir toda la línea */
+    margin: 10px 0; /* Ajusta el margen según sea necesario (10px es un ejemplo) */
+}
+
+/* Ajusta la altura de línea para la sección de Educación */
+.education-section h3 {
+    line-height: 1; /* Puedes ajustar este valor según tus preferencias */
+    margin-bottom: 0; /* Elimina el margen inferior para evitar espacios adicionales */
+}
+
+.education-section h4 {
+    line-height: 1; /* Puedes ajustar este valor según tus preferencias */
+    margin: 0; /* Elimina el margen para evitar espacios adicionales */
+}
+
+/* Elimina el margen inferior del hr dentro de education-section */
+.education-section hr {
+    margin-bottom: 0;
+}
+
+/* Elimina el margen inferior del p que contiene las líneas "Escuela General Manuel Serrano Renda" y "2007 - 2014" */
+.education-section p {
+    margin: 0;
+}
+
+/* Agrega una línea a la izquierda del bloque con clase "block-with-border" */
+.block-with-border {
+    border-left: 2px solid black; /* Ajusta el ancho y color de la línea según sea necesario */
+    padding-left: 10px; /* Añade un espacio entre el texto y la línea izquierda */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 15px;
+    width: 100%;
+}
